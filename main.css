@@ -5,39 +5,57 @@ ul {
     overflow: hidden;
 }
 
+
 li {
-    float: left;
-    padding: 20px 30px;
+    display: inline-block;
+    padding: 30px 70px;
     text-decoration: none;
+   
 }
 
 li a {
     text-decoration: none;
     color: black;
-    font-size: large;
+    font-size: x-large;
+    text-align: center;
 }
 
 li a:hover {
     text-decoration: underline;
+    background-color: whitesmoke;
 }
-
 #relative {
     position: relative;
-    padding: 0px 20px 0px 0px;
+    left: 130px;
+    top: 30px;
     color: orangered;
     text-decoration: underline;
     text-decoration-color: black;
     background-color: white;
-    font-size: xx-large;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    display: block;
+    font-size: 40px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-seri;
 }
 
 div.center {
-    text-align: center;
-    height: 420px;
-    width: 110% ;
+    width: 100% ;
     background-color: black;
     left: -50px;
 }
+section {
+    text-align: center;
+    background-color: lightgray
+   
+}
+
+div.pic {
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+    margin: 30px;
+    background: white;    
+  }
+
+  
+
+
 
