@@ -1,0 +1,43 @@
+ul {
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#relative {
+    position: relative;
+    padding: 0px 20px 0px 0px;
+    color: orangered;
+    text-decoration: underline;
+    text-decoration-color: black;
+    background-color: white;
+    font-size: xx-large;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    display: block;
+}
+
+div.center {
+    text-align: center;
+    height: 420px;
+    width: 110% ;
+    background-color: black;
+    left: -50px;
+}
+
